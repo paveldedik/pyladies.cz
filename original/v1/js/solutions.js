@@ -15,7 +15,6 @@
     }
     for(i=0; i < details.length; i++) {
         details[i].setAttribute('data-innerhtml', details[i].innerHTML);
-        details[i].setAttribute('style', 'margin-bottom:100em');
         var btn = document.createElement('input');
         btn.setAttribute('type', 'button');
         btn.setAttribute('class', 'btn');
@@ -27,7 +26,7 @@
         details[i].appendChild(btn);
     }
     document.getElementById('show-all').addEventListener('click', show_all);
-    if(window.location.hash.contains('showall')) {
+    if(window.location.hash.indexOf('showall') != -1) {
         show_all();
     }
     document.body.addEventListener('copy', function () {return false;});
