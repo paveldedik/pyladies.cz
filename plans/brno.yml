@@ -66,6 +66,7 @@
     link: v1/s003-looping/handout/handout3a.pdf
 - name: Správa zdrojového kódu
   date: 2016-10-17
+  done: true
   materials:
   - name: Git
     type: lesson
@@ -81,6 +82,7 @@
     link: v1/s003-looping/handout/handout3b.pdf
 - name: Funkce & Řetězce
   date: 2016-10-24
+  done: true
   materials:
   - name: Vlastní funkce
     type: lesson
@@ -96,6 +98,7 @@
     link: v1/s004-strings/handout/handout4.pdf
 - name: Testování
   date: 2016-10-31
+  done: true
   materials:
   - name: Výjimky
     type: lesson
@@ -114,6 +117,7 @@
     link: v1/s005-modules/handout/handout5.pdf
 - name: Spolupráce a Open-Source
   date: 2016-11-07
+  done: true
   materials:
   - name: Spolupráce & Open Source
     type: lesson
